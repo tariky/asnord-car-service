@@ -196,9 +196,12 @@ export default function Home() {
 						adresu...
 					</p>
 					<div className="mt-10">
-						<button className="bg-red-600 px-10 text-lg text-white py-3">
+						<a
+							href="https://shop.asnord-servis.com"
+							className="bg-red-600 px-10 text-lg text-white py-3"
+						>
 							Web shop
-						</button>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -219,9 +222,12 @@ export default function Home() {
 						jednostavnije i lakše pronašli skeniraj QR code sa strane.
 					</p>
 					<div className="mt-10 sm:hidden flex">
-						<button className="bg-red-600 px-10 text-lg text-white py-3">
+						<a
+							href="https://maps.app.goo.gl/658NEeYsCQK6kgGL6"
+							className="bg-red-600 px-10 text-lg text-white py-3"
+						>
 							Google Maps lokacija
-						</button>
+						</a>
 					</div>
 				</div>
 				<div className="sm:flex flex-col z-10 items-center gap-3 py-6 hidden">
